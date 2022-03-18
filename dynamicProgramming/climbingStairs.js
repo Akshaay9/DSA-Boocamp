@@ -17,9 +17,12 @@ const recursive = () => {
 };
 console.log(recursive());
 
+TC =0(n^2) || 0(2^n)
+SC=0(n)
 
 
-// 1) recursive way
+
+// 1) recursive DP way
 const recursionDp = (totalSteps, currentStep, map) => {
   if (currentStep === totalSteps) {
     return 1;
@@ -39,3 +42,6 @@ const recursiveDp = () => {
   return recursionDp(3, 0, {});
 };
 console.log(recursiveDp());
+
+TC =0(n) || 0(n)
+SC=0(n)
