@@ -57,6 +57,7 @@ const recursionDp = (profits, weights, capacity, currIndex, len, map) => {
     len,
     map
   );
+
   const ans = Math.max(notConsider, consider);
   map[memoizedKey] = ans;
   return ans;
