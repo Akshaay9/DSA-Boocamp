@@ -21,9 +21,7 @@ const arr2 = [1, 2, 3, 5];
 // APPROACH 1 DP
 
 const recursive = (arr, currIndex, totalSum) => {
-  if (totalSum === 0) return true;
   if (currIndex >= arr.length) return false;
-
   const currentSum = arr[currIndex];
   let consider = false;
   if (currentSum <= totalSum) {
@@ -47,7 +45,6 @@ const recursion = (arr) => {
 // console.log(recursion(arr2));
 
 const partition = (nums) => {
-  if (nums.length === 1) return false;
   const totalSum = nums.reduce((acc, ele) => (acc += ele), 0);
   if (totalSum % 2 !== 0) return false;
 
