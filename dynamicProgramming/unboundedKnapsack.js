@@ -1,5 +1,5 @@
 LINK : https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/
- val=[1.1] w=[2,1] w=3  ans=3
+ // val=[1.1] w=[2,1] w=3  ans=3
 
 const recurse = (val, wt, currIDX, capacity, length, map) => {
   if (currIDX >= length) {
