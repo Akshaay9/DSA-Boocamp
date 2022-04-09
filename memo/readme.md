@@ -3,3 +3,4 @@ Problems List
 2)Largets subarray with zero sum https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/
 3) SUbarray with equal 0 and 1  https://www.geeksforgeekslargest-subarray-with-equal-number-of-0s-and-1s/
 4) Distict ele in window of k  https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+5) substring with distinct char : https://www.geeksforgeeks.org/count-of-substrings-having-all-distinct-characters/
