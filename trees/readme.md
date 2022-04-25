@@ -6,4 +6,5 @@
 6) n array post order bst : https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 7) inorder trasersal : https://leetcode.com/problems/binary-tree-inorder-traversal/
 8)  merge 2 BT : https://leetcode.com/problems/merge-two-binary-trees/
-8) UNIVALUED BT : https://leetcode.com/problems/univalued-binary-tree/
+9) UNIVALUED BT : https://leetcode.com/problems/univalued-binary-tree/
+10)SUmof root to leaf: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
